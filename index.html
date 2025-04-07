@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Número Primo</title>
+    <!-- Link css externo -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Inicio container verificador -->
+    <section id="container" class="container">
+        <h1>Verificador de Número Primo</h1>
+
+        <!-- Inicio formulario verificador -->
+        <form id="formulario">
+            <label for="numero">Digite um número:
+                <input 
+                type="number" 
+                name="numero" 
+                id="numero" 
+                value="0" 
+                required>
+            </label>
+
+            <div class="botoes">
+                <button type="submit">Verificar</button>
+                <button type="reset" id="limpar">Limpar</button>
+            </div>
+        </form>
+        <!-- Fim formulario verificador -->
+
+        <!-- Inicio resposta do verificador -->
+         <div id="resultado" class="resultado">
+            <h3></h3>
+         </div>
+        <!-- Fim resposta do verificador -->
+
+    </section>
+    <!-- Fim container verificador -->
+
+    <!-- JS externo -->
+     <script src="script.js"></script>
+</body>
+</html>
